@@ -9,9 +9,20 @@ namespace AJAXServerControls
 {
     public partial class UpdatePanel : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
 
+        protected void Button1(object sender, EventArgs e)
+        {
+            Label1.Text = DateTime.Now.ToLongDateString();
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Label2.Text = DateTime.Now.ToLongDateString();
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Label3.Text = DateTime.Now.ToLongDateString();
         }
     }
 }

@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="ConditionalUpdate.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="source.gif" />
     <Content Include="TimerSample.aspx" />
     <Content Include="TimerSample1.aspx" />
     <Content Include="UpdatePanel.aspx" />
