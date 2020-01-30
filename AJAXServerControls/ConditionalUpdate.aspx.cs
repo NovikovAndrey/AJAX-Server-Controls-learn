@@ -11,7 +11,9 @@ namespace AJAXServerControls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text = DateTime.Now.ToLongTimeString();
+            Label2.Text = DateTime.Now.ToLongTimeString();
+            Label3.Text = DateTime.Now.ToLongTimeString();
         }
     }
 }
