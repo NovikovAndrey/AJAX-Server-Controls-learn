@@ -11,7 +11,10 @@ namespace AJAXServerControls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+             if(IsPostBack)
+             {
+                    throw new ApplicationException("Figushki");
+             }
         }
     }
 }
