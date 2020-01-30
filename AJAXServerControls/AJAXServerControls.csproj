@@ -67,16 +67,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ConditionalUpdate.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="TimerSample.aspx" />
+    <Content Include="TimerSample1.aspx" />
     <Content Include="UpdatePanel.aspx" />
     <Content Include="UpdatePanelErrors.aspx" />
+    <Content Include="UpdatePanelsError.aspx" />
+    <Content Include="UpdatePanelTrigger.aspx" />
+    <Content Include="UpdateProgressSample.aspx" />
+    <Content Include="UpdateProgressCancel.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConditionalUpdate.aspx.cs">
+      <DependentUpon>ConditionalUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalUpdate.aspx.designer.cs">
+      <DependentUpon>ConditionalUpdate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimerSample.aspx.cs">
+      <DependentUpon>TimerSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimerSample.aspx.designer.cs">
+      <DependentUpon>TimerSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimerSample1.aspx.cs">
+      <DependentUpon>TimerSample1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimerSample1.aspx.designer.cs">
+      <DependentUpon>TimerSample1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UpdatePanel.aspx.cs">
       <DependentUpon>UpdatePanel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +118,34 @@
     </Compile>
     <Compile Include="UpdatePanelErrors.aspx.designer.cs">
       <DependentUpon>UpdatePanelErrors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePanelsError.aspx.cs">
+      <DependentUpon>UpdatePanelsError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePanelsError.aspx.designer.cs">
+      <DependentUpon>UpdatePanelsError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePanelTrigger.aspx.cs">
+      <DependentUpon>UpdatePanelTrigger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePanelTrigger.aspx.designer.cs">
+      <DependentUpon>UpdatePanelTrigger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProgressSample.aspx.cs">
+      <DependentUpon>UpdateProgressSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateProgressSample.aspx.designer.cs">
+      <DependentUpon>UpdateProgressSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProgressCancel.aspx.cs">
+      <DependentUpon>UpdateProgressCancel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateProgressCancel.aspx.designer.cs">
+      <DependentUpon>UpdateProgressCancel.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
