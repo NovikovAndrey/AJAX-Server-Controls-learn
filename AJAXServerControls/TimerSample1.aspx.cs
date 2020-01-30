@@ -9,9 +9,26 @@ namespace AJAXServerControls
 {
     public partial class TimerSample1 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public int Counter
         {
+            get {
+                object val = ViewState["Counter"];
+                if(val != null)
+                {
+                    return (int)val;
+                }
+                ViewState["Counter"] = 0;
+                return 0;
+            }
+            set{
+                ViewState["Counter"] = value;
+            }
+        }
 
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Counter++;
+            Label1.Text = Counter.ToString(); ;
         }
     }
 }
