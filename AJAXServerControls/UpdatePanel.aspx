@@ -13,7 +13,7 @@
                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                     <ContentTemplate>
                         <asp:Label ID="Label1" runat="server" BackColor="Red" ForeColor="White"></asp:Label>
-                        <asp:Button ID="Button1" runat="server" Text="Обновить таймер1" OnClick="Button1" />
+                        <asp:Button ID="Button1" runat="server" Text="Обновить таймер1" OnClick="Button1_Click" />
 
                     </ContentTemplate>
                 </asp:UpdatePanel>
